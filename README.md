@@ -68,3 +68,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+  <Route path="/" element={<PaginaPadrao />}>
+    <Route path="/" element={<Inicio />} />
+    <Route path="/sobremim" element={<SobreMim />} />
+  </Route>
+
+  {/*
+    Usando o OUTLET na PaginaPadrao
+
+    Na rota "/", a estrutura a ser renderizada é:
+      <PaginaPadrao>
+        <Inicio />
+      </PaginaPadrao>
+
+    Na rota "/sobremim", a estrutura a ser renderizada é:
+      <PaginaPadrao>
+        <Sobremim />
+      </PaginaPadrao>
+  */}
