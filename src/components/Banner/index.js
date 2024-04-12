@@ -5,7 +5,7 @@ import minhaFoto from 'assets/Programacao1.jpg'
 export default function Banner() {
 return (
 <div className={styles.banner}>
-  <div className={styles.apresentacao}>
+  <div>
     <h1 className={styles.titulo}>
       Olá, mundo
     </h1>

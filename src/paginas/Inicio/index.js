@@ -15,6 +15,7 @@ function Inicio() {
       </ul>
 
   );
+
 }
 
 export default Inicio;
